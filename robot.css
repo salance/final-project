@@ -1,0 +1,181 @@
+/* Name: Sean Lance
+/  CS 81 Final Project
+/  Filename: robot.css
+/  External CSS Stylesheet for index.html
+*/
+
+body {
+  background: #808080;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #FFFCCC;
+  height: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer{
+  text-align: center;
+  color: #000000;
+  background-color: #D3D3D3;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 200px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+canvas {
+  color: #ffffff;
+  border: #ffffff solid 2px;
+  padding: 15px;
+}
+
+h1{
+  font-family: fantasy;
+  font-size: 10em;
+  font-weight: bold;
+}
+
+h2, h3 {
+  font-family: arial, sans-serif, helvetica;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+#alphabet {
+  margin: 15px auto;
+  padding: 0;
+  max-width: 560px;
+}
+#alphabet:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+#alphabet li {
+  float: left;
+  margin: 0 10px 10px 0;
+  list-style: none;
+  width: 30px;
+  height: 30px;
+  padding-top: 10px;
+  background: #FFFCCC;
+  color: #808080;
+  font-size: 18px;
+  cursor: pointer;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border: solid 1px #fff;
+}
+#alphabet li:hover {
+  /*background: #c1d72e; */
+  background: #ADD8E6;
+  border: solid 1px #fff;
+  color: #fff;
+}
+
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display: block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.6em;
+}
+
+.active {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  cursor: default;
+}
+.active:hover {
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+#rounds {
+  font-size: 1.6em;
+  text-align: center;
+  display: block;
+}
+
+button {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  background: #ffffff;
+  color: #000000;
+  /*color: #F08080; */
+  border: solid 2px #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}
+button:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #F08080;
+  border: solid 1px #ffffff;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  #alphabet {
+    padding: 0 0 0 15px;
+  }
+}
+@media (max-width: 480px) {
+  #alphabet {
+    padding: 0 0 0 25px;
+  }
+}

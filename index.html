@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--  Name: Sean Lance CS 81
+      Assignment: Final Project
+      As stated on the syllabus, 20% of your final grade is based
+      on your "Project". This is more than just another Assignment.
+      It requires use of your design skills. Choose a project that
+      you are interested in doing. The main thing is to learn and
+      to have fun doing it. Come up with an innovative idea related
+      to the course material. Think of some dynamic behavior you
+      would like to add to a webpage and apply JavaScript concepts
+      and techniques to design and implement it. The total time
+      spent on the project - including research, design, coding,
+      testing, redesign, etc., must be at least 20 hours.
+-->
+<html lang = "en-US">
+<head>
+  <meta charset = "UTF-8">
+  <title>Broken Robot | Final Project</title>
+  <!-- External CSS Stylesheet -->
+  <link rel="stylesheet" href="css/robot.css">
+
+  <!-- External JavaScript File -->
+  <script src="js/robot1.js"></script>
+  <script src="js/robot2.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Broken Robot Word Game</h1>
+      <img src = "images/roboticon.png" alt="robot logo" width="200" height="200">
+    </header>
+
+  </div>
+  <div class="wrapper">
+    <div id="buttons"></div>
+    <p id="catagoryName"></p>
+    <div id="hold"></div>
+    <p id="rounds"></p>
+    <p id="clue">Clue -</p>
+
+    <div id="robot">
+      <h2>Robot Teardown Area</h2>
+    </div>
+
+    <canvas id="viewport" width="600" height="600"></canvas>
+    <h3>Select one of the letters to guess the word. [click <em>Clue!</em> button for help.] </h3>
+    <div class="container">
+      <button id="hint">Clue!</button>
+      <button id="reset">Play Again!</button>
+    </div>
+  </div>
+  <footer>
+    <p><strong>The Broken Robot Word Game</strong></p>
+  </footer>
+</body>
+</html>
